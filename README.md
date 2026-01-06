@@ -19,9 +19,9 @@ J'ai créé 2~3 [Prefab](https://docs.unity3d.com/6000.2/Documentation/Manual/Pr
   
 Une fois que la simulation est lancée (en cliquant sur le bouton :arrow_forward:) je ne peux plus éditer les valeurs de comportement de mes bateaux à moins de tous les sélectionner directement dans la scène et il ne faut pas que j'oublie de me rappeler les valeurs sinon elles ne sont pas enregistrées quand je quitte le mode Play !  
   
-J'ai déplacé les variables dans le `BoatManager.cs` : ça résout une partie du problème (je n'ai plus besoin de sélectionner tout les bateaux) mais ça n'est pas sauvegardé, ça va être l'horreur pour créer plusieurs variantes et ça n'est pas à lui de gérer/connaitre ses valeurs dans le principe de responsabilité.  
+J'ai commencé à déplacer certaines variables dans le `BoatManager.cs` : ça résout une partie du problème (je n'ai plus besoin de sélectionner tout les bateaux) mais ça n'est pas sauvegardé, ça va être l'horreur pour créer plusieurs variantes et ça n'est pas à lui de gérer/connaitre ses valeurs dans le principe de responsabilité.  
   
-**Est-ce que tu pourrais trouver un moyen "d'extraire/externaliser" les variables du script `BoatManager.cs` ?**  
+**Est-ce que tu pourrais trouver un moyen "d'extraire/externaliser" les variables du script `BoatAutoPilot.cs` ?**  
   
 Je crois qu'on peut utiliser les [ScriptableObject](https://docs.unity3d.com/6000.2/Documentation/Manual/class-ScriptableObject.html) pour ça ?  
   
@@ -126,4 +126,3 @@ C.a.d que plutôt que d'avoir une simple collection de nos bateaux (et qu'ils ai
   J'utilise [ScreenToGif](https://www.screentogif.com/) mais tu peux utiliser le logiciel que tu souhaite.  
 
 **:information_source: Une fois que c'est fait : `commit`, `push` et passe à la suite :smile:**  
-

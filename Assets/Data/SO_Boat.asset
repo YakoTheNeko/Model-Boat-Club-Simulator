@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea98dbd25e062c141ba149b0c04e15e4, type: 3}
+  m_Name: SO_Boat
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Boat
+  maxSpeed: 1000
+  steeringSpeed: 45
+  maxForce: 0.5
+  neighborhoodRadius: 3.98
+  separationRadius: 1.98
+  separationAmount: 0
+  cohesionAmount: 3
+  alignmentAmount: 3
