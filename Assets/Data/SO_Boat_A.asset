@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea98dbd25e062c141ba149b0c04e15e4, type: 3}
   m_Name: SO_Boat_A
   m_EditorClassIdentifier: Assembly-CSharp::SO_Boat
-  maxSpeed: 1000
+  maxSpeed: 512
   steeringSpeed: 45
   maxForce: 0.322
   neighborhoodRadius: 3.98
