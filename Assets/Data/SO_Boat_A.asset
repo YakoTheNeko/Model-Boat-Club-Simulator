@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SO_Boat
   maxSpeed: 1000
   steeringSpeed: 45
-  maxForce: 0.5
+  maxForce: 0.322
   neighborhoodRadius: 3.98
   separationRadius: 1.98
   separationAmount: 0

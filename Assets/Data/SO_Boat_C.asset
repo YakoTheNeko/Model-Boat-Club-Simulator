@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea98dbd25e062c141ba149b0c04e15e4, type: 3}
   m_Name: SO_Boat_C
   m_EditorClassIdentifier: Assembly-CSharp::SO_Boat
-  maxSpeed: 1000
-  steeringSpeed: 45
-  maxForce: 0.5
-  neighborhoodRadius: 3.98
-  separationRadius: 1.98
-  separationAmount: 0
-  cohesionAmount: 3
-  alignmentAmount: 3
+  maxSpeed: 0
+  steeringSpeed: 6.6
+  maxForce: 0.198
+  neighborhoodRadius: 7.72
+  separationRadius: 5.71
+  separationAmount: 1.28
+  cohesionAmount: 1.75
+  alignmentAmount: 1.34
